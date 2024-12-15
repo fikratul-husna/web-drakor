@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drakor Kece</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <!-- My Javascript -->
+  <script src="js/script.js"></script>
+  ;
+
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">rekomendasi<span>drakor</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#products">Rekomendasi</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"
+          ><i data-feather="film"></i
+        ></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- Search Form start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form end -->
+
+      <!-- Shopping Cart start -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="img/untukweb.jpg" alt="Product 1" />
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/untukweb.jpg" alt="Product 1" />
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/untukweb.jpg" alt="Product 1" />
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+      <!-- Shopping Cart end -->
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Rekomendasi Drama Korea <span>Terbaik</span></h1>
+        <p>
+          Temukan rekomendasi drama Korea yang wajib kamu tonton untuk teman
+          rebahan mu!!
+        </p>
+        <a href="#" class="cta">Gass Tonton</a>
+      </main>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- About Section start -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/tentang kami.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Annyeong, Pecinta Drakor!</h3>
+          <p>Kamu lagi cari drakor seru yang bikin baper, ngakak, atau nagih? Jangan khawatir, kita punya list yang gak bakal ngecewain! 💕 
+            Dari kisah cinta yang uwu banget sampai drama penuh plot twist, semuanya ada di sini! 🤩</p>
+          <p>Jadi, udah siap marathon? Lets drakoring bareng! 😍</p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section end -->
+
+    <!-- Menu Section start -->
+    <section id="menu" class="menu">
+      <h2><span>Menu</span> Kami</h2>
+      <p>
+        Lagi bingung mau nonton apa? Tenang, kita siapin beberapa drakor seru buat kamu! 😎✨ 
+        Cek daftar rekomendasi kami yang gak akan bikin kamu bosen deh!
+      </p>
+
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/Queen_of_Tears_poster.png" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- Queen of Tears -</h3>
+          <p class="menu-card-price">Komedi Romantis</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/Flex_X_Cop_(poster).jpeg" alt="" class="menu-card-img" />
+          <h3 class="menu-card-title">- Flex x Cop-</h3>
+          <p class="menu-card-price">Komedi, Laga</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/Vincenzo_poster.jpg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- Vincenzo-</h3>
+          <p class="menu-card-price">Dark komedi, Komedi </p>
+        </div>
+        <div class="menu-card">
+          <img src="img/The_Atypical_Family_(television_series)_poster.png" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- The Atypical Family -</h3>
+          <p class="menu-card-price">Fantasi, Romansa</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/Doctor_Slump_(TV_series)_poster.jpg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- Doctor Slump -</h3>
+          <p class="menu-card-price">Drama Medis, Komedi Romantis</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/Healer_TV_series-poster.jpg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- Healer -</h3>
+          <p class="menu-card-price">Aksi, Romantis, Misteri</p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section end -->
+
+    <!-- Products Section start -->
+    <section class="products" id="products">
+      <h2><span>Rekomendasi</span> Kami</h2>
+      <p>
+        Gak ada lagi drama yang lebih seru dari yang satu ini! Kalau kamu cari tontonan yang bisa bikin kamu #BaperMax, 
+        cek Rekomendasi Terbaik kami. Dijamin enggak bakal nyesel! 🎥💯
+      </p>
+
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="film"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/TVN's_Reply_1988_(응답하라_1988)_poster.jpg" alt="Product 1" />
+          </div>
+          <div class="product-content">
+            <h3>Reply 1988</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">Fantasi,  Romantis, Komedi  <span></span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="film"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/The_Queens_Umbrella-p3-1-723x1024.jpg" alt="Product 1" />
+          </div>
+          <div class="product-content">
+            <h3>The Queens Umbrella</h3>
+            <div class="product-stars">
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star"></i>
+            </div>
+            <div class="product-price">Komedi,  Romantis, Slice of Life   <span></span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="film"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/Twenty-Five_Twenty-One-p2-1-715x1024.jpg" alt="Product 1" />
+          </div>
+          <div class="product-content">
+            <h3>Coffee Beans 1</h3>
+            <div class="product-stars">
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">Coming-of-Age, Friendship, Drama,  Romantis, Komedi   <span></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Products Section end -->
+
+    <!-- Contact Section start -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>
+        Punya pertanyaan atau mau ngobrol langsung? Kami siap bantu kamu! 💬 
+        Kalau ada yang pengen kamu tanya, tinggal klik aja di bawah!
+      </p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6634661.73611178!2d122.58101895479278!3d35.711929007627845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356455ebcb11ba9b%3A0x91249b00ba88db4b!2sKorea%20Selatan!5e0!3m2!1sid!2sid!4v1734264908931!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"></iframe>
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="no hp" />
+          </div>
+          <button type="submit" class="btn">kirim pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section end -->
+
+    <!-- Footer start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">FikratulHusnaSyafnur</a>. | &copy; 2024.</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Modal Box Item Detail start -->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/Vincenzo_poster.jpg" alt="Product 1" />
+          <div class="product-content">
+            <h3>Product 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Provident, tenetur cupiditate facilis obcaecati ullam maiores
+              minima quos perspiciatis similique itaque, esse rerum eius
+              repellendus voluptatibus!
+            </p>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i> <span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Item Detail end -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
